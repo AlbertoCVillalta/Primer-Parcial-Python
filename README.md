@@ -110,7 +110,10 @@ pizza
 
 
 class Restaurante:
-    def ordenar(self):
+    Restaurante = Restaurante()
+
+    def ordenar(self, especialidad, lugar, costo, conDescuento, descuento):
+
         pass
 
     def costoTotal(self):
@@ -121,7 +124,8 @@ class Restaurante:
 
 
 class Pizza:
-    pass
+    def pizza(self):
+        self.Especialidad = ("Hawaiana", "Meat Lover", "Suprema", "Cuatro Quesos")
 
 
 """
